@@ -38,13 +38,14 @@ function App() {
     console.log(data)
     setPoliticians(data)
   }
-
+ 
   // const filteredPoliticians =  politicians.filter((p, i) => {//politico true rimane in array
   //     const isInName =  p.name.toLowerCase().includes(value.toLowerCase())
   //     const isInBio=  p.biography.toLowerCase().includes(value.toLowerCase())
   //     return isInName || isInBio
   // })
 
+ 
   //sto ricreando questo array filtrato ad ogni rendering del mio componente
 
   const filteredPoliticians = useMemo(() => {
